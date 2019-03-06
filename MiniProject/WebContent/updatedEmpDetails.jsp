@@ -13,6 +13,7 @@
 
 	<c:import url="headerAdmin.jsp"></c:import>
 	<br>
+	<h2>Employee Details Updated Successfully</h2>
 	<center>
 		<center>
 			<h1 style="color: white; background-color: black" class="ems">Employee
