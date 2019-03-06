@@ -62,7 +62,6 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 	@Override
 	public boolean modifyEmp(Employee bean) throws EmployeeException {
 		try {
-			System.out.println(bean);
 			String sql = "UPDATE Employee SET firstName=:firstName,lastName=:lastName,dateOfBirth=:dateOfBirth,dateOfJoining=:dateOfJoining,departmentId=:departmentId,grade=:grade,designation=:designation,salary=:salary,gender=:gender,maritalStatus=:maritalStatus,address=:address,phoneNumber=:phoneNumber WHERE employeeId=:employeeId";
 			Query query = entity.createQuery(sql);
 			query.setParameter("employeeId", bean.getEmployeeId());
@@ -125,7 +124,8 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 				if (e.getEmployeeId().equals(bean.getEmployeeId()) || e.getFirstName().equals(bean.getFirstName())
 						|| e.getLastName().equals(bean.getLastName()) || e.getGrade().equals(bean.getGrade())
 						|| e.getMaritalStatus().equals(bean.getMaritalStatus())
-						|| e.getDepartmentId().toString().equals(bean.getDepartmentId().toString()))
+						|| e.getDepartmentId().equals(bean.getDepartmentId()))
+
 					l.add(e);
 			}
 			return l;
@@ -151,6 +151,18 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new EmployeeException("Some Error");
+		}
+	}
+
+	@Override
+	public void getDeleteEmployee(Integer id) throws EmployeeException {
+		try {
+			Employee bean=entity.find(Employee.class, id);
+			User uBean=entity.find(User.class, id.toString());
+			entity.remove(bean);
+			entity.remove(uBean);
+		} catch (Exception e) {
+			throw new EmployeeException("Error in deletion");
 		}
 	}
 }

@@ -24,4 +24,6 @@ public interface IEmployeeService {
 
 	List<String> getGrades() throws EmployeeException;
 
+	void getDeleteEmployee(Integer id) throws EmployeeException;
+
 }

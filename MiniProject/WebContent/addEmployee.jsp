@@ -6,34 +6,28 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="<c:url value="resources/myStyle.css" />">
+<link rel="stylesheet" href="resources/myStyle.css">
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>ADD DETAILS</title>
 </head>
-<body background="<c:url value="resources/images/index11.jpg" />">
+<body background="resources/images/index11.jpg">
 
-	<a href="index.obj"> <img src="resources/images/home.png"
-		width="50" height="50" class="home"></a>
-	<a href="index.obj"> <img class="logout"
-		src="resources/images/lgout.png" align="top" height="40" width="150">
-	</a>
+	<c:import url="headerAdmin.jsp"></c:import>
 	<center>
-		<h1 style="color: white; background-color: black" class="ems">
-			Employee Maintenance System</h1>
-	</center>
-	<center>
+		<h2 style="color: red;">
+			<c:if test="${message ne null}">
+				<span>${message}</span>
+			</c:if>
+		</h2>
 		<c:if test="${temp==0}">
-			<h1>ADDING EMPLOYEE DETAILS :</h1>
-
+			<center>
+				<h1 style="color: white; background-color: black" class="ems">Add
+					Employee Details</h1>
+			</center>
 			<table class="trans">
 				<s:form action="addEmployee.obj" modelAttribute="employee"
 					method="post">
-					<%-- <tr>
-						<td>Employee Id : <span style="color: red;">*</span></td>
-						<td><s:input path="employeeId" /></td>
-						<td style="color: red"><s:errors path="employeeId"></s:errors></td>
-					</tr> --%>
 					<tr>
 						<td>First Name : <span style="color: red;">*</span></td>
 						<td><s:input path="firstName" /></td>
@@ -46,12 +40,12 @@
 					</tr>
 					<tr>
 						<td>Date of Birth : "yyyy-mm-dd" <span style="color: red;">*</span></td>
-						<td><s:input path="dateOfBirth" required="true" /></td>
+						<td><s:input path="dateOfBirth" required="true" type="date" /></td>
 						<td style="color: red"><s:errors path="dateOfBirth"></s:errors></td>
 					</tr>
 					<tr>
 						<td>Date of Joining : "yyyy-mm-dd" <span style="color: red;">*</span></td>
-						<td><s:input path="dateOfJoining" required="true" /></td>
+						<td><s:input path="dateOfJoining" required="true" type="date" /></td>
 						<td style="color: red"><s:errors path="dateOfJoining"></s:errors></td>
 					</tr>
 					<tr>
@@ -109,14 +103,16 @@
 						<td style="color: red"><s:errors path="phoneNumber"></s:errors></td>
 					</tr>
 					<tr>
-						<td><input type="submit" value="ADD EMPLOYEE" /></td>
+						<td colspan="2" style="text-align: center;"><input
+							type="submit" value="ADD EMPLOYEE" /></td>
 					</tr>
 				</s:form>
 			</table>
 		</c:if>
 		<c:if test="${temp==1 }">
-			<h1 style="color: green; background-color: white" class="ems"> Employee  Added Successfully EMPLOYEE ID : ${ id } and PASSWORD :${ pwd }</h1>
-				
+			<h1 style="color: green; background-color: white" class="ems">
+				Employee Details Added Successfully EMPLOYEE ID : ${ id } and PASSWORD :${ pwd }</h1>
+
 		</c:if>
 	</center>
 </body>

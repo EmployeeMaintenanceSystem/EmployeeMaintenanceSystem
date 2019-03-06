@@ -12,19 +12,19 @@
 <title>Modify Employee Details</title>
 </head>
 <body background="<c:url value="resources/images/index11.jpg" />">
-	<a href="index.obj"> <img src="resources/images/home.png"
-		width="50" height="50" class="home"></a>
-	<a href="index.obj"><img class="logout"
-		src="resources/images/lgout.png" align="top" height="40" width="150">
-	</a>
+	<c:import url="headerAdmin.jsp"></c:import>
 	<center>
-		<h1 style="color: white; background-color: black" class="ems">
-			Employee Maintenance System</h1>
+		<h1 style="color: white; background-color: black" class="ems">Modify
+			Employee Details</h1>
 	</center>
-	<h1>MODIFY EMPLOYEE DETAILS</h1>
 	<c:if test="${temp==0 }">
 		<s:form action="modifyDetails.obj" modelAttribute="bean" method="post">
 			<center>
+				<h4 style="color: red;">
+				<c:if test="${message ne null}">
+					<span>${message}</span>
+				</c:if>
+				</h4>
 				<table class="trans">
 					<tr>
 						<td>Enter Employee ID :</td>
@@ -39,19 +39,24 @@
 				</table>
 			</center>
 		</s:form>
+
 	</c:if>
 	<c:if test="${temp>0}">
 
 		<s:form action="update.obj" modelAttribute="employee" method="post">
 			<center>
+				<h2 style="color: red;">
+					<c:if test="${message ne null}">
+						<div>${message}</div>
+					</c:if>
+				</h2>
 				<table class="trans">
 					<tr>
-					<td>Employee Id :</td>
-					<td><s:input path="employeeId"
-							value="${employee.employeeId}" readonly="true"/>
-					</td>
-					<td><s:errors path="employeeId"></s:errors></td>
-				</tr>
+						<td>Employee Id :</td>
+						<td><s:input path="employeeId" value="${employee.employeeId}"
+								readonly="true" /></td>
+						<td><s:errors path="employeeId"></s:errors></td>
+					</tr>
 					<tr>
 						<td>Employee First Name :</td>
 						<td><s:input path="firstName" value="${employee.firstName}" />
@@ -67,13 +72,13 @@
 					<tr>
 						<td>Date of Birth : "yyyy-mm-dd"</td>
 						<td><s:input path="dateOfBirth"
-								value="${employee.dateOfBirth}"  /></td>
+								value="${employee.dateOfBirth}" type="date" /></td>
 						<td><s:errors path="dateOfBirth"></s:errors></td>
 					</tr>
 					<tr>
 						<td>Date of Joining : "yyyy-mm-dd"</td>
 						<td><s:input path="dateOfJoining"
-								value="${employee.dateOfJoining}"  /></td>
+								value="${employee.dateOfJoining}" type="date" /></td>
 						<td><s:errors path="dateOfJoining"></s:errors></td>
 					</tr>
 					<tr>
@@ -128,5 +133,6 @@
 		</s:form>
 
 	</c:if>
+
 </body>
 </html>

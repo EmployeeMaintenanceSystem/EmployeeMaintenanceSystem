@@ -16,18 +16,7 @@ body {
 </head>
 <body background="<c:url value="resources/images/index11.jpg" />">
 
-
-	<a href="index.obj"> <img src="resources/images/home.png"
-		width="50" height="50" class="home"></a>
-	<a href="index.obj"><img class="logout"
-		src="resources/images/lgout.png" align="top" height="40" width="150">
-	</a>
-
-
-	<center>
-		<h1 style="color: white; background-color: black" class="ems"
-			style="text-align: center;">Employee Maintenance System</h1>
-	</center>
+	<c:import url="headerAdmin.jsp" />
 
 	<marquee>
 		<h1 class="ems2">
@@ -44,6 +33,12 @@ body {
 			</h3>
 			<h3>
 				<a href="display.obj">DISPLAY ALL EMPLOYEE DETAILS</a>
+			</h3>
+			<h3>
+				<a href="delete.obj">DELETE EMPLOYEE DETAILS</a>
+			</h3>
+			<h3>
+				<a href="search.obj">SEARCH EMPLOYEE DETAILS</a>
 			</h3>
 		</center>
 	

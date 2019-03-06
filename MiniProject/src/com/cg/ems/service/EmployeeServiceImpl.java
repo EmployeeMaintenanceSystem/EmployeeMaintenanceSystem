@@ -61,4 +61,9 @@ public class EmployeeServiceImpl implements IEmployeeService {
 		return dao.getGrades();
 	}
 
+	@Override
+	public void getDeleteEmployee(Integer id) throws EmployeeException {
+		 dao.getDeleteEmployee(id);
+	}
+
 }

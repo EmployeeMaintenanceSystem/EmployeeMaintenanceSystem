@@ -4,12 +4,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" href="<c:url value='resources/myStyle.css' />">
+<link rel="stylesheet" href="resources/myStyle.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>INDEX PAGE</title>
+<title>Index Page</title>
 </head>
 <body background="<c:url value='resources/images/index11.jpg' />">
-
+	
 	<center>
 		<h1 style="color: white; background-color: black">Employee
 			Maintenance System</h1>
@@ -17,10 +17,6 @@
 	<a href="login.obj"><img class="logout"
 		src="resources/images/login-button-png-4.jpg" align="top" height="40"
 		width="150"></a>
-	<marquee>
-		<font size="5pt"> PEOPLE MATTERS, RESULTS COUNT. </font>
-	</marquee>
-
-
+	<c:import url="footer.jsp"/>
 </body>
 </html>

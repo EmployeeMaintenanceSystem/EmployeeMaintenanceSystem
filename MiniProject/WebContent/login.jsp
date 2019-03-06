@@ -6,6 +6,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="<c:url value="resources/myStyle.css" />">
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>LoginPage</title>
 </head>
@@ -46,10 +47,9 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td align="center"><input type="submit" value="LOGIN" /></td>
+					<td align="center"><input type="submit" value="Login"/></td>
 				</tr>
 			</s:form>
-
 		</table>
 	</center>
 </body>

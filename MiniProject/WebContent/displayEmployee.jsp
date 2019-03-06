@@ -11,16 +11,11 @@
 <title>DISPLAY</title>
 </head>
 <body background="<c:url value="resources/images/index11.jpg" />">
-	<a href="index.obj"> <img src="resources/images/home.png"
-		width="50" height="50" class="home"></a>
-	<a href="index.obj"><img class="logout"
-		src="resources/images/lgout.png" align="top" height="40" width="150">
-	</a>
+	<c:import url="headerAdmin.jsp"></c:import>
 	<center>
-		<h1 style="color: white; background-color: black" class="ems">
-			Employee Maintenance System</h1>
+		<h1 style="color: white; background-color: black" class="ems">Employee
+			Records</h1>
 	</center>
-	<h1>Employee Records</h1>
 	<br>
 	<table border="1" align="center" class="trans">
 		<tr>
@@ -37,6 +32,7 @@
 			<th bgcolor="bisque">MaritalStatus</th>
 			<th bgcolor="bisque">Address</th>
 			<th bgcolor="bisque">Phone Number</th>
+			<th bgcolor="bisque">Action</th>
 			<c:forEach var="employeeList" items="${list}">
 				<tr>
 					<td>${employeeList.employeeId }</td>
@@ -52,6 +48,9 @@
 					<td>${employeeList.maritalStatus }</td>
 					<td>${employeeList.address }</td>
 					<td>${employeeList.phoneNumber}</td>
+					<td><a
+						href="deleteEmployee.obj?empId=${employeeList.employeeId }"><b
+							style="color: red;">Delete</b></a></td>
 				</tr>
 			</c:forEach>
 	</table>
