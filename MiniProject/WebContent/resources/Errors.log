@@ -1,0 +1,1449 @@
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scan complete 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scanning directory D:\Wildfly 9\wildfly-9.0.1.Final\standalone\deployments for deployment content changes 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@70efdcdf handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@51264f0d handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@2ddb5f2d handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@a108e28 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@497a291 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@672acb29 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@107fd2d6 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@1e907f3f handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@272ac556 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@16682119 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@786fb860 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@651b59d5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@14ea2055 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@435dbb38 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@46f4a78b handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@799e8b71 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@3cb3f49f handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@12990c4a handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@71b2296d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@7c7ae129 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@809ed35 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@3d8d3ed1 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@6133a590 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@14a67fc0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@53014824 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@7ae8f23 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7bcda563 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@5c329da5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@52bbe6f handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@760ffe7e handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@607fbb61 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@2868dd7e handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@70e8d6da handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@799d3ab7 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@64a42256 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@ac99091 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@3c21c914 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@2cf914a5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@698a35fe handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@2f817d46 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scan complete 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scanning directory D:\Wildfly 9\wildfly-9.0.1.Final\standalone\deployments for deployment content changes 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@5d2af40a handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@3a0548f handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@22010e3 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@fafdd46 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@5aff21d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@4aaca0b handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@60f7575 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@773bcd1f handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@dfef6ff handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@5fd69fd9 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@228ffd8b handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@bf59ff0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7146d97f handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@1a05b8d9 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@473b6db7 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@609660bf handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@27dcc0f3 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@10a867a1 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@ce2e6d6 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@5fa2ec6d handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@56ef1ee1 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@677d6021 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@4150a0ec handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@58fff5b0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7649e058 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@7a39fad8 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@3eaa62b3 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@19df52a3 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@20ad2ae0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@15f7eb17 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@78a5ace0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@1b8cb31d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@52bf70a6 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@78ba86b5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@2dadf7ee handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@5347bd1d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7ad4dd93 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@56777352 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@1427ecf5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@7a661439 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scan complete 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scanning directory D:\Wildfly 9\wildfly-9.0.1.Final\standalone\deployments for deployment content changes 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@293bd56c handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@5111ecd6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@3728dc65 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@7342db14 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@4a5f0a5 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@5a8cdbbb handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@2bb6ef7b handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@4e491b62 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@6542fad6 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@592fb4c6 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@45fe55af handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@43ead479 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@318c0298 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@15a119eb handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@22c565dd handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@379934e0 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@66d06849 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@7ba35b39 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7241221d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@c813681 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : execute - Executing "read-children-resources" [] 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : doCompleteStep - Prepared response is {
+    "outcome" => undefined,
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler$1@1f43259a handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler$ReadChildrenResourcesAssemblyHandler@226e2a09 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler$ReadResourceAssemblyHandler@7efbbc94 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@2f037bba handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@296ae435 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => true
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@7a87bd73 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@59bba1ab handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@6d51cf8d handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@1364d55e handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [{
+        "archive" => false,
+        "path" => "deployments\\MiniProject.war",
+        "relative-to" => "jboss.server.base.dir"
+    }]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@54cf8e64 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@507dcbaf handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => false
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@33334b8a handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@648a697 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "MiniProject.war"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@2edca494 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@10422253 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => [
+        ("subsystem" => "deployment-scanner"),
+        ("scanner" => "default")
+    ]
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@398454ca handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@7a3b2173 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => 1551864164226L
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadAttributeHandler$AuthorizeAttributeReadHandler@3188d2a4 handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.GlobalOperationHandlers$AvailableResponseWrapper@30d93e7c handling read-attribute in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => "2019-03-06 14:52:44,226 IST"
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadResourceHandler@2b601ea9 handling read-resource in address [("deployment" => "MiniProject.war")] is {
+    "outcome" => "success",
+    "result" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.operations.global.ReadChildrenResourcesHandler@35182db6 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.controller.management-operation : finalizeInternal - Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@34ff4301 handling read-children-resources in address [] is {
+    "outcome" => "success",
+    "result" => {"MiniProject.war" => {
+        "content" => [{
+            "archive" => false,
+            "path" => "deployments\\MiniProject.war",
+            "relative-to" => "jboss.server.base.dir"
+        }],
+        "enabled" => true,
+        "enabled-time" => 1551864164226L,
+        "enabled-timestamp" => "2019-03-06 14:52:44,226 IST",
+        "name" => "MiniProject.war",
+        "owner" => [
+            ("subsystem" => "deployment-scanner"),
+            ("scanner" => "default")
+        ],
+        "persistent" => false,
+        "runtime-name" => "MiniProject.war",
+        "subdeployment" => undefined,
+        "subsystem" => {"undertow" => undefined}
+    }}
+} 
+2019-03-06-DeploymentScanner-threads - 2-TRACE-org.jboss.as.server.deployment.scanner : scan - Scan complete 

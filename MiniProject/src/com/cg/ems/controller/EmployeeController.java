@@ -26,7 +26,7 @@ import com.cg.ems.service.IEmployeeService;
 public class EmployeeController {
 	
 	static {
-		PropertyConfigurator.configure("resources\\log4j.properties");
+		PropertyConfigurator.configure("C:\\Users\\gakshayk\\git\\EMS\\MiniProject\\WebContent\\resources\\log4j.properties");
 	}
 	@Autowired
 	IEmployeeService service;
@@ -72,7 +72,7 @@ public class EmployeeController {
 					return "login";
 				}
 			} catch (EmployeeException e) {
-				log.error(e);
+				log.error(e.getMessage());
 				model.addAttribute("msg", "Invalid UserName or Password");
 				return "login";
 			}
@@ -107,7 +107,7 @@ public class EmployeeController {
 				model.addAttribute("pwd", pwd);
 				return "addEmployee";
 			} catch (EmployeeException e) {
-				log.error(e);
+				log.error(e.getMessage());
 				model.addAttribute("msg", e.getMessage());
 				return "error";
 			}
@@ -163,7 +163,7 @@ public class EmployeeController {
 				return "modifyPage";
 			}
 		} catch (EmployeeException e) {
-			log.error(e);
+			log.error(e.getMessage());
 			model.addAttribute("msg", e.getMessage());
 			return "error";
 		}
@@ -250,7 +250,7 @@ public class EmployeeController {
 			model.addAttribute("plist", list);
 			return "searchEmp";
 		} catch (EmployeeException e) {
-			log.error(e);
+			log.error(e.getMessage());
 			model.addAttribute("message", "Unable to display list");
 			return "error";
 		}
@@ -289,7 +289,7 @@ public class EmployeeController {
 			service.getDeleteEmployee(id);
 			return "deletedEmpPage";
 		} catch (EmployeeException e) {
-			log.error(e);
+			log.error(e.getMessage());
 			model.addAttribute("message", e.getMessage());
 			return "deleteEmployee";
 		}

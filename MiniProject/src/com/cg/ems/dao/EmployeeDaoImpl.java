@@ -20,6 +20,7 @@ public class EmployeeDaoImpl implements IEmployeeDao {
 
 	@PersistenceContext
 	EntityManager entity;
+	
 
 	@Override
 	public User isValid(String userId, String password) throws EmployeeException {
